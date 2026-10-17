@@ -1,10 +1,10 @@
 # astrbot_plugin_webclass_sync
 
-山形大学 WebClass 自动化巡检与归档插件，基于 [AstrBot](https://github.com/Soulter/AstrBot) 开发。
+大学 WebClass 自动化巡检与归档插件，基于 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 开发。
 
 ## 功能特性
 
-- **课程全覆盖巡检**：自动巡检山形大学 WebClass 平台 各门专业课程及通用信息栏目。
+- **课程全覆盖巡检**：自动巡检 WebClass 平台 各门专业课程及通用信息栏目。
 - **课件与通知归档**：将最新课件材料自动归档并同步至 Google Drive 网盘对应目录。
 - **中文日报生成**：自动汇总提取近期作业 Deadline、测验与紧急通知，格式化输出排版工整的中文简报。
 - **定时调度与推送**：支持每日固定时间静默调度并主动推送至指定 QQ 私聊或群聊会话。
