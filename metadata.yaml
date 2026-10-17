@@ -1,0 +1,6 @@
+name: astrbot_plugin_webclass_sync
+display_name: 山形大学 WebClass 巡检归档 (WebClass Sync)
+desc: 山形大学 WebClass 每日自动化巡检、课件与通知归档至 Google Drive，并生成作业截止中文日报。
+version: v1.0.0
+author: Tetra
+repo: https://github.com/TetraAcc/astrbot_plugin_webclass_sync

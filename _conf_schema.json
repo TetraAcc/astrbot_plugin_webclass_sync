@@ -1,0 +1,24 @@
+{
+  "enable": {
+    "description": "是否启用 WebClass 巡检归档插件",
+    "type": "bool",
+    "default": true
+  },
+  "enable_scheduled_inspection": {
+    "description": "是否开启每日定时自动巡检调度（验收前请保持关闭）",
+    "type": "bool",
+    "default": false
+  },
+  "schedule_time_jst": {
+    "description": "每日巡检时间 (JST 日本时间，HH:MM)",
+    "type": "string",
+    "default": "19:00",
+    "hint": "交接规范标准时间为每日 19:00 JST (即 18:00 CST)"
+  },
+  "notify_session": {
+    "description": "巡检日报主动推送的目标会话 (Session ID)",
+    "type": "string",
+    "default": "",
+    "hint": "留空则不主动跨会话推送，建议填入侯哥专属会话 ID"
+  }
+}
